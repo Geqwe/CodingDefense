@@ -14,12 +14,19 @@ public class WaveSpawner : MonoBehaviour
     public Transform spawnPoint;
     public Text waveCountDownText;
     public Wave[] waves;
+    public GaManager gameManager;
+    bool stopWaves = false;
 
     private void Update() {
         if(EnemiesAlive > 0) {
             return;
         }
-        if(countdown <= 0f) {
+        if(waveNum == waves.Length) {
+            gameManager.WinLevel();
+            stopWaves = true;
+            this.enabled = false;
+        }
+        if(countdown <= 0f && stopWaves==false) {
             StartCoroutine("SpawnWave");
             countdown = timeBetweenWaves;
             return;
@@ -34,16 +41,18 @@ public class WaveSpawner : MonoBehaviour
 
     IEnumerator SpawnWave() {
         Wave wave = waves[waveNum];
+        EnemiesAlive = wave.count;
+        Debug.Log(EnemiesAlive);
         for (int i = 0; i < wave.count; i++)
         {
             SpawnEnemy(wave.enemy);
             yield return new WaitForSeconds(1f / wave.rate);
         }
         waveNum++;
+        
     }
 
     void SpawnEnemy(GameObject enemyPref) {
         Instantiate(enemyPref, spawnPoint.position, spawnPoint.rotation);
-        EnemiesAlive++;
     }
 }

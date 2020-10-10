@@ -12,6 +12,7 @@ public class EnemyMovement : MonoBehaviour
     private int wavepointIndex = 1;
     public GameObject effectDie;
     public Image healthBar;
+    bool isDead = false;
 
     // public static Transform[] waypoints;
 
@@ -32,12 +33,13 @@ public class EnemyMovement : MonoBehaviour
     public void TakeDamage(int damage) {
         health -= damage;
         healthBar.fillAmount = health / startHealth;
-        if(health <= 0) {
+        if(health <= 0 && isDead==false) {
             Die();
         }
     }
 
     void Die() {
+        isDead = true;
         GameObject eff = (GameObject)Instantiate(effectDie, transform.position, Quaternion.identity);
         Destroy(eff, 2f);
         PlayerStats.Money += value;
