@@ -72,9 +72,11 @@
      <Compile Include="Assets\Scripts\GameScripts\WaveSpawner.cs" />
      <Compile Include="Assets\Scripts\GameScripts\WaypointScript.cs" />
      <Compile Include="Assets\Scripts\LevelAnswers\Level1Answer.cs" />
+     <Compile Include="Assets\Scripts\LevelAnswers\Level2Answer.cs" />
      <Compile Include="Assets\Scripts\UI\CreditsScript.cs" />
      <Compile Include="Assets\Scripts\UI\EnableGMScript.cs" />
      <Compile Include="Assets\Scripts\UI\FadeScript.cs" />
+     <Compile Include="Assets\Scripts\UI\FlashingTextScript.cs" />
      <Compile Include="Assets\Scripts\UI\LivesUI.cs" />
      <Compile Include="Assets\Scripts\UI\MainMenu.cs" />
      <Compile Include="Assets\Scripts\UI\MoneyUI.cs" />

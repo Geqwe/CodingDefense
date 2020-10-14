@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Level1Answer : MonoBehaviour
 {
@@ -17,5 +18,11 @@ public class Level1Answer : MonoBehaviour
         else {
             textSuccess.text = "Try Again";
         }
+    }
+
+    public void Restart()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }
