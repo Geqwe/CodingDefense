@@ -3524,7 +3524,7 @@ MonoBehaviour:
       (#include <headerLib>)"
     - "#include <iostream>\r\n\r\nint main() {\r\n  return 0;\r\n}\n\nIn general,
       header files add functionality to C++ programs. Don't worry if you don't understand
-      something right away, we have plent of time."
+      something right away, we have plenty of time."
     - "#include <iostream>\r\n\r\nint main() {\r\n  return 0;\r\n}\n\nLine 2: Blank
       lines and white space are ignored by C++."
     - "#include <iostream>\r\n\r\nint main() {\r\n  return 0;\r\n}\n\nLine 3: int
@@ -4725,8 +4725,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.00093842, y: 30}
-  m_SizeDelta: {x: 320.0017, y: 30}
+  m_AnchoredPosition: {x: 0.00093842, y: 78.75}
+  m_SizeDelta: {x: 320.0017, y: 127.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &538077892
 MonoBehaviour:
@@ -4754,13 +4754,14 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 40
-    m_Alignment: 4
+    m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Input the missing word
+  m_Text: "#include <iostream>\r\n\r\nint main() {\r\n  return 0;\r\n}\n\nInput the
+    missing word"
 --- !u!222 &538077893
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4856,7 +4857,7 @@ PrefabInstance:
     - target: {fileID: 3777764084855699522, guid: 32044470cf90a3b4db5d526bfdf64517,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3777764084855699581, guid: 32044470cf90a3b4db5d526bfdf64517,
         type: 3}

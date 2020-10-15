@@ -16,7 +16,7 @@ public class Level1Answer : MonoBehaviour
             buildMan.GetComponent<GaManager>().WinLevel();
         }
         else {
-            textSuccess.text = "Try Again";
+            textSuccess.text = "Try Again \n"+ textSuccess.text;
         }
     }
 

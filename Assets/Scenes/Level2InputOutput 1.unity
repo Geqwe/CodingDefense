@@ -3510,10 +3510,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     sentences:
-    - Hello again Sean here. Welcome to the second lesson. Here we will learn about
+    - Hello again, Sean here. Welcome to the second lesson. Here we will learn about
       user input and user output.
     - Let's get right to it, by seeing a script written in C++.
-    - Alongside our expedition on learning, we will try to defend our fort from enemies.
+    - Let's see the script. Don't be scared just yet.
     - "#include <iostream>\r\n\nint main() {\r\n   int x; \r\n   std::cout << \"Type
       a number: \"; \n   std::cin >> x; \n   std::cout << \"Your number is: \" <<
       x; \n  return 0;\r\n}"
@@ -3524,7 +3524,7 @@ MonoBehaviour:
       a number: \"; \n   std::cin >> x; \n   std::cout << \"Your number is: \" <<
       x; \n  return 0;\r\n}\n\nLine 1: #include <iostream>\r\nAs mentioned before,
       we include a library with it. We won't worry about libraries anymore, but just
-      know that it is something needed."
+      know that they are needed."
     - "#include <iostream>\r\n\nint main() {\r\n   int x; \r\n   std::cout << \"Type
       a number: \"; \n   std::cin >> x; \n   std::cout << \"Your number is: \" <<
       x; \n  return 0;\r\n}\n\nLine 2: Blank lines and white space not important
@@ -3546,11 +3546,11 @@ MonoBehaviour:
       std::cout << \"Your number is: \" << x; \n\nLine 2. std::cout << \"Type a number:
       \"; \nThis is the output. Let's take it step by step."
     - "std::cout << \"Type a number: \"; \n\n-> std:: is a keyword, in order to use
-      cout and cin. Let's leave it to that.\n-> cout (pronounced 'see-out') shows
+      cout and cin. Let's leave it at that.\n-> cout (pronounced 'see-out') shows
       something to the user. The thing that it shows is what comes after <<. \n->
       '<<' is the insertion operator, meaning that everything on the right, goes
-      to the left.\n-> \"Type a number: \". Everything inside \"\" will be going
-      into cout.\n-> And of course we close the statement using ' ; '."
+      to the left.\n-> \"Type a number: \". Everything inside \" \"(quotes) will
+      be going into cout.\n-> And of course we close the statement using ' ; '."
     - 'That may be a lot to grasp but don''t worry. After seeing them a few times,
       you will become experienced with them. Another example of cout is:
 
@@ -3583,27 +3583,22 @@ MonoBehaviour:
     - "std::cout << \"Your number is: \" << x; \n\n-> std:: yeah, I know, before
       cout and cin.\n-> cout yeap, see-out, everything on the right of the '<<' (insertion
       operator) will be shown to the user. In that case: Your number is: \n-> insertion
-      operator <<\n-> the VALUE of the variable. Because x is not inside \"\", its
-      value will be shown. If it was written like \"x\" then the user would have
-      seen: Your number is: x\nBut because it just has x, then what the user will
-      see is: Your number is: 5"
+      operator <<\n-> the VALUE of the variable. Because x is not inside \" \"(quotes),
+      its value will be shown. \nIf it was written like \"x\" then the user would
+      have seen: \nYour number is: x\nBut because it just has x, then what the user
+      will see is: \nYour number is: 5"
     - "std::cout << \"Your number is: \" << x; \n\nAnother example so that this is
       more clear. Let's say again that x has stored the value 5 again. \nstd::cout
       << \"This \" << \"is an \" << \"example\";\nAs you might have guessed, that
-      will print This is an example."
-    - 'So if we put it like:
-
-      std::cout << "This " << x << " example";
-
-      We
-      will get: This 5 example
-
-      I hope you got the point.'
+      will print: \nThis is an example."
+    - "So if we put it like:\nstd::cout << \"This \" << x << \" example\";\nWe will
+      get: \nThis 5 example\nI hope you got the point."
     - "So to recap the three statements needed:\n   std::cout << \"Type a number:
       \"; \n   std::cin >> x; \n   std::cout << \"Your number is: \" << x; "
     - "   std::cout << \"Type a number: \"; \n   std::cin >> x; \n   std::cout <<
       \"Your number is: \" << x; \nThe user will see:\nType a number: \n(Here the
-      user types something and sees and, let's say 5)\nYour number is: 5"
+      user types something and sees it, let's say 5 and hits enter)\nYour number
+      is: 5"
     - Now let's see what you learnt.
 --- !u!114 &381050386
 MonoBehaviour:
@@ -3618,7 +3613,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextLevel: LevelSelect
-  levelToUnlock: 1
+  levelToUnlock: 2
   darkFade: {fileID: 586170045}
 --- !u!1001 &400274234
 PrefabInstance:
@@ -4922,7 +4917,7 @@ PrefabInstance:
     - target: {fileID: 3777764084855699522, guid: 32044470cf90a3b4db5d526bfdf64517,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3777764084855699581, guid: 32044470cf90a3b4db5d526bfdf64517,
         type: 3}
@@ -6432,7 +6427,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 990760394}
         m_MethodName: Restart
         m_Mode: 1
         m_Arguments:
@@ -8171,6 +8166,9 @@ MonoBehaviour:
   inputField: {fileID: 856846155}
   textSuccess: {fileID: 538077892}
   buildMan: {fileID: 381050382}
+  textToSee: {fileID: 1335015218}
+  text1: {fileID: 1583142772}
+  text2: {fileID: 1014030783}
 --- !u!1001 &996443004
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9729,7 +9727,7 @@ Canvas:
   m_GameObject: {fileID: 1156627115}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
+  m_RenderMode: 1
   m_Camera: {fileID: 2018271276}
   m_PlaneDistance: 100
   m_PixelPerfect: 1
@@ -10667,7 +10665,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1335015217
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10708,10 +10706,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 30
+    m_FontSize: 15
     m_FontStyle: 1
     m_BestFit: 0
-    m_MinSize: 3
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0

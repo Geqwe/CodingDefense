@@ -73,6 +73,8 @@
      <Compile Include="Assets\Scripts\GameScripts\WaypointScript.cs" />
      <Compile Include="Assets\Scripts\LevelAnswers\Level1Answer.cs" />
      <Compile Include="Assets\Scripts\LevelAnswers\Level2Answer.cs" />
+     <Compile Include="Assets\Scripts\LevelAnswers\Level3Answer.cs" />
+     <Compile Include="Assets\Scripts\LevelAnswers\Level4Answer.cs" />
      <Compile Include="Assets\Scripts\UI\CreditsScript.cs" />
      <Compile Include="Assets\Scripts\UI\EnableGMScript.cs" />
      <Compile Include="Assets\Scripts\UI\FadeScript.cs" />

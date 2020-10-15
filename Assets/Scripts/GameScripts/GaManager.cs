@@ -8,7 +8,7 @@ public class GaManager : MonoBehaviour
 {
     bool ended = false;
     public string nextLevel = "LevelSelect";
-    public int levelToUnlock = 2;
+    public int levelToUnlock;
     public Image darkFade;
 
     private void Start() {
