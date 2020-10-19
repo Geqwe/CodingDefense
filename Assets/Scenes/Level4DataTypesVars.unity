@@ -8240,7 +8240,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fb80ee91080671479c920d02dadcfaf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inputField: {fileID: 856846155}
+  inputField: {fileID: 1570705173}
   textSuccess: {fileID: 538077892}
   buildMan: {fileID: 381050382}
   text1: {fileID: 1583142774}
@@ -10885,7 +10885,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b32e906e47924624a9d2de47593874df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startMoney: 400
 --- !u!1001 &1361727617
 PrefabInstance:
   m_ObjectHideFlags: 0

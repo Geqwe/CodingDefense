@@ -8,7 +8,7 @@ using System.Globalization;
 
 public class Level4Answer : MonoBehaviour
 {
-    public GameObject inputField;
+    public InputField inputField;
     public Text textSuccess;
     public GameObject buildMan;
     int clicked = 0;
@@ -23,7 +23,7 @@ public class Level4Answer : MonoBehaviour
     }
 
     public void CheckString() {
-        string check = inputField.GetComponent<Text>().text;
+        string check = inputField.text;
         if(clicked == 0) {
             if(int.TryParse(check, out int yolo)) {
                 PlayerStats.Lives = int.Parse(check);

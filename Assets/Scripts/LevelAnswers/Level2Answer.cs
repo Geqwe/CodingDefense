@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class Level2Answer : MonoBehaviour
 {
-    public GameObject inputField;
+    public InputField inputField;
     public Text textSuccess;
     public GameObject buildMan;
     public Text textToSee;
@@ -16,7 +16,7 @@ public class Level2Answer : MonoBehaviour
 
     public void CheckString() {
         if(!clicked) {
-            string check = inputField.GetComponent<Text>().text;
+            string check = inputField.text;
             Debug.Log(check[0]+" "+check[check.Length-1]);
             if((check[0]=='"') && (check[check.Length-1]=='"')) {
                 textToSee.text = check.Substring(1,check.Length-2);
@@ -31,7 +31,7 @@ public class Level2Answer : MonoBehaviour
             
         }
         else {
-            if(inputField.GetComponent<Text>().text == "sean") {
+            if(inputField.text == "sean") {
                 textSuccess.text = "Very Well";
                 buildMan.GetComponent<GaManager>().WinLevel();
             }

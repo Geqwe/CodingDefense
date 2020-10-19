@@ -5,9 +5,9 @@ using UnityEngine;
 public class PlayerStats : MonoBehaviour
 {
     public static double Money;
-    public double startMoney = 400;
+    // private double startMoney = 400;
     public static int Lives;
-    private int startLives = 3;
+    // private int startLives = 3;
 
     private void Start() {
         // Money = startMoney;

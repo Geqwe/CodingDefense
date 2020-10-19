@@ -6,12 +6,12 @@ using UnityEngine.SceneManagement;
 
 public class Level3Answer : MonoBehaviour
 {
-    public GameObject inputField;
+    public InputField inputField;
     public Text textSuccess;
     public GameObject buildMan;
 
     public void CheckString() {
-        if(inputField.GetComponent<Text>().text == "Lesson3") {
+        if(inputField.text == "Lesson3") {
             textSuccess.text = "Very Well";
             buildMan.GetComponent<GaManager>().WinLevel();
         }

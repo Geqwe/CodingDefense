@@ -276,7 +276,7 @@ PrefabInstance:
     - target: {fileID: 9197350156799124517, guid: 01de0836c1444ea418294f7347260f97,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: Demo 1
+      value: Level3Comments
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 01de0836c1444ea418294f7347260f97, type: 3}
@@ -823,7 +823,7 @@ PrefabInstance:
     - target: {fileID: 9197350156799124517, guid: 01de0836c1444ea418294f7347260f97,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: Demo 1
+      value: Level4DataTypesVars
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 01de0836c1444ea418294f7347260f97, type: 3}
@@ -1425,7 +1425,7 @@ PrefabInstance:
     - target: {fileID: 9197350156799124517, guid: 01de0836c1444ea418294f7347260f97,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: Demo 1
+      value: Level6ArithmeticOperations
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 01de0836c1444ea418294f7347260f97, type: 3}
@@ -1780,7 +1780,7 @@ PrefabInstance:
     - target: {fileID: 3777764084855699522, guid: 32044470cf90a3b4db5d526bfdf64517,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3777764084855699581, guid: 32044470cf90a3b4db5d526bfdf64517,
         type: 3}
@@ -2086,7 +2086,7 @@ PrefabInstance:
     - target: {fileID: 9197350156799124517, guid: 01de0836c1444ea418294f7347260f97,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: Demo 1
+      value: Level2InputOutput
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 01de0836c1444ea418294f7347260f97, type: 3}
@@ -2577,7 +2577,7 @@ PrefabInstance:
     - target: {fileID: 9197350156799124517, guid: 01de0836c1444ea418294f7347260f97,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: Demo 1
+      value: Level5Arrays
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 01de0836c1444ea418294f7347260f97, type: 3}
@@ -3100,7 +3100,7 @@ PrefabInstance:
     - target: {fileID: 9197350156799124517, guid: 01de0836c1444ea418294f7347260f97,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: Demo 1
+      value: LevelSelect
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 01de0836c1444ea418294f7347260f97, type: 3}
@@ -3449,7 +3449,7 @@ PrefabInstance:
     - target: {fileID: 9197350156799124517, guid: 01de0836c1444ea418294f7347260f97,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: Demo 1
+      value: Level1Intro
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 01de0836c1444ea418294f7347260f97, type: 3}

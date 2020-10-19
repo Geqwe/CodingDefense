@@ -14,4 +14,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level4DataTypesVars.unity
     guid: e1b793c40df980747b159fd6e9176269
+  - enabled: 1
+    path: Assets/Scenes/Level1Intro.unity
+    guid: a7cea3a87ed034046a70521be8f66c6b
+  - enabled: 1
+    path: Assets/Scenes/Level2InputOutput.unity
+    guid: c886dd0f3b5675b41aed1550b25c761f
+  - enabled: 1
+    path: Assets/Scenes/Level3Comments.unity
+    guid: 6c8b1271bfe7ddc4f85d18f7a4ee08c4
+  - enabled: 1
+    path: Assets/Scenes/Level5Arrays.unity
+    guid: f90079d00a7e7a84486ae7ecbcf0690d
+  - enabled: 1
+    path: Assets/Scenes/Level6ArithmeticOperations.unity
+    guid: 49f3b374ce7036647873279d4b1c7b03
   m_configObjects: {}

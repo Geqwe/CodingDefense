@@ -75,6 +75,8 @@
      <Compile Include="Assets\Scripts\LevelAnswers\Level2Answer.cs" />
      <Compile Include="Assets\Scripts\LevelAnswers\Level3Answer.cs" />
      <Compile Include="Assets\Scripts\LevelAnswers\Level4Answer.cs" />
+     <Compile Include="Assets\Scripts\LevelAnswers\Level5AnswerScript.cs" />
+     <Compile Include="Assets\Scripts\LevelAnswers\Level6Answer.cs" />
      <Compile Include="Assets\Scripts\UI\CreditsScript.cs" />
      <Compile Include="Assets\Scripts\UI\EnableGMScript.cs" />
      <Compile Include="Assets\Scripts\UI\FadeScript.cs" />
