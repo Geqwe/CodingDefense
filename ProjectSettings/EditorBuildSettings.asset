@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level6ArithmeticOperations.unity
     guid: 49f3b374ce7036647873279d4b1c7b03
+  - enabled: 1
+    path: Assets/Scenes/Level7Conditions.unity
+    guid: cfd306222575a624989bc9cbf34978ad
   m_configObjects: {}

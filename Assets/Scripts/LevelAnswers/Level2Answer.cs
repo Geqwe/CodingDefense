@@ -20,13 +20,13 @@ public class Level2Answer : MonoBehaviour
             Debug.Log(check[0]+" "+check[check.Length-1]);
             if((check[0]=='"') && (check[check.Length-1]=='"')) {
                 textToSee.text = check.Substring(1,check.Length-2);
-                textSuccess.text = "Now, write what that will print: \n"+"std::cout << 'sean';";
+                textSuccess.text = "Now, write what that will print: \n"+"std::cout << \"sean\";";
                 clicked = true;
                 text1.SetActive(false);
                 text2.SetActive(false);
             }
             else {
-                textSuccess.text = "What you write must be inside quotes(' ') \n" + textSuccess.text;
+                textSuccess.text = "What you write must be inside quotes(\" \") \n" + textSuccess.text;
             }
             
         }

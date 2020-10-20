@@ -36,7 +36,12 @@ public class Level5AnswerScript : MonoBehaviour
             check2 = true;
         }
         else {
-            textSuccess.text = "You got the second one wrong\n"+ textSucc; 
+            if(check1==false) {
+                textSuccess.text = "You got the second one wrong\n"+ textSuccess.text; 
+            }
+            else {
+                textSuccess.text = "You got the second one wrong\n"+ textSucc; 
+            }
             check2 = false;
         }
 

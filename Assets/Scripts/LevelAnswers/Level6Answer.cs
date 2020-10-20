@@ -22,7 +22,6 @@ public class Level6Answer : MonoBehaviour
     }
 
     public void CheckValues() {
-        Debug.Log(inputField1.text + " "+ inputField2.text);
         if(inputField1.text == "money") {
             textSuccess.text = "You got the first one right\n"+ textSucc; 
             check1 = true;
@@ -37,7 +36,12 @@ public class Level6Answer : MonoBehaviour
             check2 = true;
         }
         else {
-            textSuccess.text = "You got the second one wrong\n"+ textSucc; 
+            if(check1==false) {
+                textSuccess.text = "You got the second one wrong\n"+ textSuccess.text; 
+            }
+            else {
+                textSuccess.text = "You got the second one wrong\n"+ textSucc; 
+            }
             check2 = false;
         }
 
